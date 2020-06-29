@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="card">
+    <div class="card-body">
+      <div class="container d-flex justify-content-center">
+        <h4 class="card-title">Log in</h4>
+      </div>
+      <div class="container d-flex justify-content-center">
+        <form>
+          <div class="form-group">
+            <label for="formGroupExampleInput">Correo</label>
+            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Correo">
+            <label for="formGroupExampleInput2">Contraseña</label>
+            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Contraseña">
+            <a href="#!" class="btn btn-primary btn-block mt-2" [routerLink]="['/login']">Log in</a>
+          </div>
+        </form>
+        
+      </div>
+      <div class="container d-flex justify-content-center mt-3">
+        <a href="#!" class="btn btn-primary mr-2" [routerLink]="['/singup']">Sing-up</a>
+        <a href="#!" class="btn btn-danger" [routerLink]="['/Home']">Regresar</a>
+      </div>
+    </div>
+  </div>
+</div>
